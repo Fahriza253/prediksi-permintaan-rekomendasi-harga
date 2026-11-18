@@ -1,0 +1,1 @@
+"""Simulasi harga dan pendapatan (M6)."""

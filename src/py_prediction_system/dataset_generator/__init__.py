@@ -1,0 +1,1 @@
+"""Generator dataset sintetis (Mopt)."""

@@ -1,0 +1,3 @@
+# Validasi latih/uji berbasis waktu
+
+Data proyek diasumsikan berupa observasi berurut waktu (perubahan harga dan penjualan di masa lalu). Kami memisahkan latih dan uji menurut waktu—data lama untuk melatih, data terbaru untuk menguji—bukan dengan pembagian acak. Split acak akan menganggap masa depan “bocor” ke latih dan mengaburkan seberapa baik model berlaku untuk periode baru, yang relevan untuk rekomendasi harga mendatang.
