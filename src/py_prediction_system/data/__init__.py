@@ -1,1 +1,1 @@
-"""Muat dan profil dataset (M1)."""
+"""Muat dan profil dataset (M1). Lihat `py_prediction_system.data.profile`."""

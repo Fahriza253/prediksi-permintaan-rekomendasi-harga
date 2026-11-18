@@ -1,1 +1,1 @@
-"""Analisis eksploratif (M3)."""
+"""Analisis eksploratif (M3). Lihat `py_prediction_system.eda.explore`."""

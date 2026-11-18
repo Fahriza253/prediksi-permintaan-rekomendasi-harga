@@ -1,1 +1,1 @@
-"""Pelatihan model regresi (M4)."""
+"""Pelatihan model regresi (M4). Lihat `py_prediction_system.models.train`."""

@@ -4,6 +4,17 @@ _Ujian Praktik Mata Kuliah Artificial Intelligence dan Machine Learning, Program
 
 Dokumen ini menjelaskan soal, analisis, dan pola pikir perancangan untuk menyelesaikan ujian praktik berupa prediksi permintaan produk berdasarkan perubahan harga menggunakan algoritma Machine Learning.
 
+## Menjalankan cepat
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e .
+python -m py_prediction_system.run_pipeline          # M2→M6: preprocess … rekomendasi harga
+python -m py_prediction_system.reporting.export_docx # LAPORAN_UTS.md → .docx
+```
+
+Laporan: [`report/LAPORAN_UTS.md`](report/LAPORAN_UTS.md) · Profil data (M1): `python -m py_prediction_system.data.profile`
+
 ## 1. Soal
 
 Berikut adalah soal yang diberikan oleh dosen:

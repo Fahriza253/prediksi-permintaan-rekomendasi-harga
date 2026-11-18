@@ -18,23 +18,23 @@ Pelacakan progress untuk **human** dan **agent**. Rincian task per modul ada di 
 | Modul | Slug / file                                    | Status modul | Depends on                                       |
 | ----- | ---------------------------------------------- | ------------ | ------------------------------------------------ |
 | M0    | [prerequisites](docs/todo/M0-prerequisites.md) | `done`       | —                                                |
-| M1    | `data-profile`                                 | `pending`    | M0                                               |
-| M2    | `preprocessing`                                | `pending`    | M1                                               |
-| M3    | `eda`                                          | `pending`    | M1 (M2 untuk final)                              |
-| M4    | `modeling`                                     | `pending`    | M2                                               |
-| M5    | `evaluation`                                   | `pending`    | M4                                               |
-| M6    | `price-simulation`                             | `pending`    | M5                                               |
-| M7    | `reporting`                                    | `pending`    | M3, M5, M6                                       |
-| Mopt  | `dataset-generator`                            | `pending`    | — (spesifikasi terisi; generator awal ada di `src/`) |
-| M8    | [closure](docs/todo/M8-closure.md)             | `pending`    | M7                                               |
+| M1    | `data-profile`                                 | `done`       | M0                                               |
+| M2    | `preprocessing`                                | `done`       | M1                                               |
+| M3    | `eda`                                          | `done`       | M1 (M2 untuk final)                              |
+| M4    | `modeling`                                     | `done`       | M2                                               |
+| M5    | `evaluation`                                   | `done`       | M4                                               |
+| M6    | `price-simulation`                             | `done`       | M5                                               |
+| M7    | `reporting`                                    | `done`       | M3, M5, M6                                       |
+| Mopt  | `dataset-generator`                            | `done`       | — (spesifikasi terisi; generator awal ada di `src/`) |
+| M8    | [closure](docs/todo/M8-closure.md)             | `done`       | M7                                               |
 
 Legenda status modul: `pending` · `in_progress` · `blocked` · `done` · `skipped`
 
 ## Deliverable akhir (cek sekali di M8)
 
-- [ ] Pipeline Python modular di `src/` dapat dijalankan end-to-end
-- [ ] Rekomendasi harga terdokumentasi (angka + asumsi)
-- [ ] `report/LAPORAN_UTS.md` + `.docx` **≤ 10 halaman** ([format](docs/agents/report-format.md))
+- [x] Pipeline Python modular di `src/` dapat dijalankan end-to-end (`run_pipeline`)
+- [x] Rekomendasi harga terdokumentasi (angka + asumsi) — **126.283 IDR**, `outputs/metrics/price_recommendation.json` + bab 6 laporan
+- [x] `report/LAPORAN_UTS.md` + `.docx` **≤ 10 halaman** ([format](docs/agents/report-format.md); estimasi ≈ 3,7 hal.)
 - [ ] Video (opsional)
 
 ## Quick links modul

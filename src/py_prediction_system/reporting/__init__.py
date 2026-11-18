@@ -1,1 +1,1 @@
-"""Keluaran grafik dan cuplikan laporan (M7)."""
+"""Keluaran laporan (M7). Lihat `export_docx` dan `run_pipeline` di package root."""

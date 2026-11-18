@@ -1,1 +1,1 @@
-"""Simulasi harga dan pendapatan (M6)."""
+"""Simulasi harga dan pendapatan (M6). Lihat `py_prediction_system.simulation.price_grid`."""

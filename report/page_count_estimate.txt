@@ -1,0 +1,7 @@
+Estimasi halaman (heuristik): 3.7
+Batas wajib: 10 halaman
+Sumber: LAPORAN_UTS.md
+Output: LAPORAN_UTS.docx
+Status: OK (estimasi ≤ batas)
+Format: Times New Roman 12 pt, warna hitam, spasi 1,15 (diterapkan saat ekspor).
+Verifikasi final: buka .docx di Word dan hitung halaman.

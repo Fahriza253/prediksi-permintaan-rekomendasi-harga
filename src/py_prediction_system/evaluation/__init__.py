@@ -1,1 +1,1 @@
-"""Metrik evaluasi (M5)."""
+"""Metrik evaluasi (M5). Lihat `py_prediction_system.evaluation.metrics`."""

@@ -1,0 +1,26 @@
+{
+  "source_path": "/home/thinkpad/Documents/S1 - TEKNIK INFORMATIKA/AI & ML/py-prediction-system/data/raw/synthetic_demand.csv",
+  "output_path": "/home/thinkpad/Documents/S1 - TEKNIK INFORMATIKA/AI & ML/py-prediction-system/data/processed/demand_preprocessed.csv",
+  "n_rows_raw": 2500,
+  "n_rows_dropped": 0,
+  "train_fraction": 0.8,
+  "train_cutoff_exclusive": "2027-06-24",
+  "train_rows": 2000,
+  "test_rows": 500,
+  "imputation_medians": {
+    "harga_pesaing": 91163.05,
+    "permintaan": 560.26
+  },
+  "imputation_fit_scope": "Median dihitung hanya pada baris latih (tanggal < cutoff); diterapkan ke seluruh data.",
+  "model_feature_columns": [
+    "harga_produk",
+    "harga_pesaing",
+    "persen_diskon",
+    "musim_liburan",
+    "selisih_harga_pesaing",
+    "rasio_harga_pesaing"
+  ],
+  "target_column": "permintaan",
+  "date_column": "tanggal",
+  "no_future_leakage": "Fitur turunan dan penanda musim per-baris; tidak ada agregasi rolling atau statistik global dari masa depan."
+}
